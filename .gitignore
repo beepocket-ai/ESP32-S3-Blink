@@ -1,0 +1,31 @@
+# 编译产物
+/build/
+*.bin
+*.elf
+*.map
+
+# ESP-IDF 生成的配置：sdkconfig 由本机生成，提交 sdkconfig.defaults 即可
+sdkconfig
+sdkconfig.old
+/dependencies.lock
+/managed_components/
+
+# 编译数据库
+compile_commands.json
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
